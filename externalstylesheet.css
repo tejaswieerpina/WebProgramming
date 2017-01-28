@@ -1,0 +1,51 @@
+
+body  {
+
+ background-image:url("background.jpg");
+ background-size: cover;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 15%;
+    height: 50%;
+	
+	
+}
+a:link{
+	color: green;
+}
+p{
+	color:blue;
+	font-family:Comic Sans MS;
+	font-size: 30px;
+	text-align:center;
+}
+tr:nth-child(even) {
+  background-color: #808080;
+}
+
+tr:nth-child(odd) {
+  background-color: #C0C0C0;
+}
+h3{
+	color: Red;
+}
+span{
+	color:red;
+	font-size: 20px;
+}
+a:hover {
+    color: yellow;
+}
+
+th{
+	color: red;
+	font-size: 18px;
+}
+
+#p1{
+	font-size:15px;
+	color:brown;
+	
+}
