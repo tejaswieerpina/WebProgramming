@@ -1,0 +1,183 @@
+html#Indian{
+background-image:url("background1.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+padding:30px;
+}
+
+body#Indian{
+background-color:white;
+font-family:Georgia, Verdana;
+padding:30px;
+}
+
+html#Italian{
+background-image:url("italy.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+padding:30px;
+}
+
+body#Italian{
+background-color:#EAF2F8;
+font-family:Georgia, Verdana;
+padding:30px;
+}
+
+html#Thai{
+background-image:url("thai.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+padding:30px;
+}
+
+body#Thai{
+background-color:#EAF2F8;
+font-family:Georgia, Verdana;
+padding:30px;
+}
+html#Mexican{
+background-image:url("mexico.png");
+background-size:cover;
+background-repeat:no-repeat;
+padding:30px;
+}
+
+body#Mexican{
+background-color:#EAF2F8;
+font-family:Georgia, Verdana;
+padding:30px;
+}
+
+p{
+text-align:justify;
+}
+
+figcaption{
+text-align:center;
+color:#000099;
+}
+
+.pimg{
+height:150px;
+width:150px;
+margin-left:auto;
+margin-right:auto;
+border-radius:8px;
+-webkit-transition: width 2s, height 2s;
+transition :width 2s, height 2s ease-in-out;
+}
+.pimg:hover{
+transform : scale(1.2);
+}
+.image_float{
+float:left;
+height:200px;
+width:400px;
+}
+th{
+font-size:20px;
+font-weight:bold;
+text-align:center;
+
+}
+
+
+table{
+margin-left:auto;
+margin-right:auto;
+
+}
+
+a.dish:hover{background-color:Black;}
+
+.container {
+	width: 400px;
+	height:200px;
+	/*margin: auto;*/
+	border:ridge 8px #5A352D;
+	float:left;
+}
+
+.slider,
+.slider li {
+	width:400px;
+	height: 200px;
+}
+
+.slider {
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+	border-radius: 3px;
+	word-spacing: -2px; /* removing inline elements spacing */
+	letter-spacing: -2px;
+}
+
+.slider li {
+	display: inline-block;
+	word-spacing: normal; /* restoring spacing */
+	letter-spacing: normal;
+}
+
+@keyframes slider {
+0%, 10% {margin-left: 0;}
+	15%, 25% {margin-left: -100%;}
+	30%, 40% {margin-left: -200%;}
+	45%, 55% {margin-left: -300%;}
+	60%, 70% {margin-left: -400%;}
+	75%, 85% {margin-left: -500%;}
+	90%, 99.9% {margin-left: -600%;}
+	100% {margin-left: 0;}
+}
+
+.slider li:first-child {
+	animation: slider 20s ease-out infinite;
+	-webkit-animation: slider 20s ease-out infinite;
+}
+
+/* pause animation on mouse over */
+.slider:hover li:first-child {
+	animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+}
+.move{
+height:200px;
+width:400px;
+}
+.heading{
+
+font-style:italic;
+font-weight:bold;
+}
+
+/* For Welcome Page */
+
+html#Welcome{
+background-image:url("menu.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+padding:30px;
+}
+.mainwelcome {
+	font-size: 300%; /* 90px; */
+	font-family: sans-serif;
+	font-style: italic;
+	margin-left: 5%;
+	margin-top: 40px;
+}
+
+.contentwelcome {
+	font-size: 60px;
+	margin-left:0%;
+	color: red;
+	text-decoration: none;
+}
+
+.contentwelcome a {
+	text-decoration: none;
+	color:red;
+}
+

@@ -1,0 +1,411 @@
+ul#menu {
+	list-style-type: none;
+	margin:0;
+	padding-left:100px;
+   
+   
+}
+ul#menu li{
+ display: inline;
+ color:#F0F0F0;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+ul#menu li a {
+   /*font-size:25px;*/
+text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	color: #9c8468;
+	/*opacity: 1;*/
+	font: 25px 'Museo700';
+    text-decoration: none;
+	overflow:hidden;
+	font-weight:bold;
+	padding:12px;
+	
+}
+/*
+ul#menu li a:hover {
+    background-color: #F0F0F0;
+}*/
+ul#menu li a.button:hover {
+	background-color:#5A352D;
+	opacity: 0.6; 
+	color: Black;
+	/*-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;*/
+	border-radius: 20px;
+}
+
+html#main{
+background-image:url("backgroundmain.jpg");
+
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+/*padding:80px;*/
+padding-bottom:20px;
+}
+html#about{
+background-image:url("truck1.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+/*padding:80px;*/
+padding-bottom:20px;
+}
+
+#nav
+{
+width:50%;
+}
+
+
+
+body#about {
+	font: normal 14px 'Helvetica Neue', Arial, sans-serif;
+	
+	
+	background-color:#FFD700;
+	margin-top:10%;
+	
+	
+}
+body#main {
+	font: normal 14px 'Helvetica Neue', Arial, sans-serif;
+	
+	background-color:#FFD700;
+	}
+
+.content{
+	font-weight: bold;
+	text-align: center;
+	color:blue;
+	opacity:1;
+}
+
+.container {
+	width: 800px;
+	height:400px;
+	/*margin: auto;*/
+	border:ridge 8px #5A352D;
+	float:left;
+}
+
+
+/* Image Slide Animation */
+.slider,
+.slider li {
+	width:800px;
+	height: 400px;
+}
+
+.slider {
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+	border-radius: 3px;
+	word-spacing: -2px; /* removing inline elements spacing */
+	letter-spacing: -2px;
+}
+
+.slider li {
+	display: inline-block;
+	word-spacing: normal; /* restoring spacing */
+	letter-spacing: normal;
+}
+
+/* configuring positions for slide animation*/
+@keyframes slider {
+0%, 10% {margin-left: 0;}
+	15%, 25% {margin-left: -100%;}
+	30%, 40% {margin-left: -200%;}
+	45%, 55% {margin-left: -300%;}
+	60%, 70% {margin-left: -400%;}
+	75%, 85% {margin-left: -500%;}
+	90%, 99.9% {margin-left: -600%;}
+	100% {margin-left: 0;}
+}
+
+.slider li:first-child {
+	animation: slider 20s ease-out infinite;
+	-webkit-animation: slider 20s ease-out infinite;
+}
+
+/* pause animation on mouse over */
+.slider:hover li:first-child {
+	animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+}
+.move{
+height:400px;
+width:800px;
+}
+
+/*Code for Header */
+.header{
+background-color:#5A352D;
+height:28px;
+width:100%;
+margin-top:0;
+display:flex;
+}
+.header div:first-child
+  {
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  background-color:#5A352D;
+  }
+
+
+.site_name
+{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+   background-color: #5A352D;
+	opacity: 0.6;
+	font-weight:bold;
+  
+}
+
+.site_page
+{
+
+margin-left:auto;
+margin-right:auto;
+width:80%;
+
+}
+.caption{
+color: black;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	letter-spacing: 5px;
+	font: 15px 'MisoRegular';
+}
+
+.caption_line{
+width:35%;
+}
+.content_container{
+
+	float:left;
+	
+}
+.hrt_container{
+/*border:solid 2px blue;*/
+
+height:100%;
+width:78%;
+float:left;
+}
+.vrt_container{
+height:95%;
+width:19%;
+border:ridge 4px #5A352D;
+float:right;
+margin-right:-5%;
+margin-top:5%;
+}
+.intro_t{
+font-size:18px;
+}
+.intro{
+font-size:13px;
+}
+
+/* For Cuisine Circles */
+.circular1 {
+	width: 270px;
+	height: 270px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(india.jpg) no-repeat;
+		 transition: all .2s ease-in-out;}
+	
+.circular2 {
+	width: 270px;
+	height: 270px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(italy1.jpg) no-repeat;
+	 transition: all .2s ease-in-out;
+	}
+	
+.circular3{
+	width: 270px;
+	height: 270px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(mexico.jpg) no-repeat;
+	 transition: all .2s ease-in-out;
+	}
+	
+.circular4{
+	width: 270px;
+	height: 270px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(tha.jpg) no-repeat;
+	 transition: all .2s ease-in-out;
+	}
+	.circular1:hover{transform: scale(1.5);}
+	.circular2:hover{transform: scale(1.5);}
+	.circular3:hover{transform: scale(1.5);}
+	.circular4:hover{transform: scale(1.5);}
+	
+.tab{
+margin-left:auto;
+margin-right:auto;
+}
+.circle{
+padding:10px 15px 5px 25px;
+}
+
+/* For About US Page*/
+.location{
+margin-left:20px;
+width:30%;
+background-color:white;
+text-align:center;
+border-radius:60px;
+
+}
+.timings{
+margin:auto;
+width:30%;
+text-align:center;
+background-color:white;
+border-radius:60px;
+}
+.reservation{
+margin-left:68%;
+background-color:white;
+border-radius:60px;
+width:30%;
+text-align:center;
+}
+
+/* For Coupons*/
+.coupon1{
+border:groove 2px white;
+background-color:black;
+color:white;
+font-style:italic;
+font-weight:bold;
+font-size:12px;
+}
+
+.dessert{
+float:left;
+height:170px;
+width:100%;
+}
+
+.free{
+height:80px;
+width:80px;
+margin-left	:50px;
+}
+.grab1{
+/*margin-left:2px;
+margin-bottom:1px;*/
+border:dashed 2px white;
+text-align:center;
+font-size:14px;
+}
+.ic{
+font-size:18px;
+color:Red;
+}
+.deal{
+color: black;
+	text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+	font: 27px 'BlackJackRegular';
+margin-left:16px;
+}
+
+.coupon2{
+border:groove 2px white;
+color:White;
+background-color:black;
+}
+.pizza{
+height:145px;
+width:100%;
+}
+
+
+
+
+.cc{
+border:dashed 2px brown;
+text-align:center;
+}
+
+
+/*For About Ovals*/
+
+.about{
+
+
+margin: 50px 0px 0px 0px
+border:dashed 5px black;
+border:dashed 5px black;
+}
+.about_head{
+text-align:center;
+background-color:#48D1CC;
+width:100%;
+font-weight:bold;
+font-size:22px;
+border-radius:10px;
+}
+.about_text{
+text-align:center;
+}
+
+/*the fire background*/
+.hot{
+color: black;
+	text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+	font: 30px 'BlackJackRegular';
+}
+
+.nshop{
+
+color: brown;
+	text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+	font: 30px 'BlackJackRegular';
+}
+
+.head_title{
+color: black;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	letter-spacing: 10px;
+	font: 40px 'MisoRegular';
+}
+
+
+.tophead{
+background-color:wheat;
+border:solid 1px black;
+}
+
+
+
+
+
+.product{
+color: black;
+	text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+	font: 30px 'BlackJackRegular';
+	margin-left:195px;
+}
+
