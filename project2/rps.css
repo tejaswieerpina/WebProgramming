@@ -1,0 +1,13 @@
+html{
+background-color:lavender;
+border:5px solid black;
+}
+#formplay{
+align:center;
+margin-left:40%;
+}
+.img{
+width:100px;
+height:100px;
+border:1px dashed black;
+}
